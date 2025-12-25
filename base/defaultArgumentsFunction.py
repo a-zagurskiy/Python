@@ -1,0 +1,5 @@
+def greet(name="Guest"):
+    print(f"Hello, {name}!")
+
+greet()        # Hello, Guest!
+greet("Anna")  # Hello, Anna!
